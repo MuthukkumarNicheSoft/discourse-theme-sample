@@ -1,0 +1,175 @@
+.user-theme-creator {
+  // Left/right column interface
+  display: flex;
+  padding-top: 1.5em;
+  margin-top: -0.5em;
+  border-top: 1px solid $primary-low;
+
+  .theme-details {
+    margin-left: 20px;
+    width: 70%;
+
+    &.editing {
+      margin-left: 0px;
+      width: 100%;
+    }
+
+    .wrapper {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .user-theme-button {
+    margin: 0.5em 0.45em 0 0;
+  }
+
+  .user-theme-nav {
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  .show-current-style {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+
+    .btn {
+      line-height: $line-height-medium; // Temporary button-height fix
+    }
+
+    .title {
+      font-size: $font-up-4;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .theme-description {
+      display: block;
+      margin: 10px 0;
+    }
+
+    .metadata {
+      .authors,
+      .version {
+        display: block;
+
+        .heading {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .remote-url,
+    .about-url,
+    .license-url {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .mini-title {
+      font-size: $font-up-1;
+      font-weight: bold;
+      margin-bottom: 7px;
+    }
+    .control-unit {
+      margin-bottom: 25px;
+      margin-top: 15px;
+    }
+    .control {
+      margin-bottom: 10px;
+    }
+    .description {
+      margin-bottom: 12px;
+    }
+  }
+
+  .status-message {
+    display: block;
+    font-size: $font-down-1;
+    margin-top: 8px;
+  }
+
+  .select-kit {
+    width: 350px;
+  }
+
+  table td,
+  table th {
+    padding: 8px;
+  }
+
+  // ACE Editor Sizing
+  .ace-wrapper {
+    position: relative;
+    height: 600px;
+    width: 100%;
+
+    .ace_editor {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+  }
+
+  // Color scheme interface
+  .table.colors {
+    margin-bottom: 20px;
+
+    thead th {
+      border: none;
+    }
+    td.hex {
+      width: 160px;
+    }
+    td.actions {
+      width: 200px;
+    }
+
+    tr:hover {
+      background-color: darken($secondary, 2.5%);
+    }
+
+    .hex-input {
+      width: 80px;
+      margin-bottom: 0;
+    }
+    .hex {
+      text-align: center;
+    }
+    .description {
+      color: dark-light-choose($primary-medium, $secondary-medium);
+    }
+
+    .invalid .hex input {
+      background-color: white;
+      color: black;
+      border-color: $danger;
+    }
+  }
+}
+
+#theme-creator-view-modal {
+  text-align: center;
+}
+
+#theme-creator-share-modal {
+  div.share_unavailable {
+    text-align: center;
+
+    .large_theme_share_icon {
+      font-size: 5rem;
+    }
+
+    p.theme_share_unavailable {
+      font-size: 1.2rem;
+    }
+  }
+}

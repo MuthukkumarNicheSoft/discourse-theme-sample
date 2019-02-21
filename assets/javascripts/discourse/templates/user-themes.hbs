@@ -1,0 +1,22 @@
+<div class="user-theme-creator admin-customize">
+  {{#unless editingTheme}}
+  <div class='content-list theme-list'>
+    <h3>{{i18n 'theme_creator.my_themes'}}</h3>
+    <ul>
+      {{#each model as |theme|}}
+        <li>
+          {{#link-to 'user.themes.show' theme replace=true}}
+            {{theme.name}}
+          {{/link-to}}
+        </li>
+      {{/each}}
+    </ul>
+    <p>{{d-button label="theme_creator.new_theme" icon="plus" action="newTheme" class="btn-primary"}}</p>
+    <p>{{d-button action="importModal" icon="upload" label="admin.customize.import"}}</p>
+    
+  </div>
+  {{/unless}}
+  <div class="theme-details {{if editingTheme "editing"}}">
+  {{outlet}}
+  </div>
+</div>

@@ -1,0 +1,66 @@
+en:
+  js:
+    theme_creator:
+
+      themes: Themes
+      preview: "Preview"
+      share: "Share"
+      delete: "Delete"
+      explain_preview: "Preview this theme"
+      
+      show_overridden: "Only show overriden"
+
+      my_themes: My Themes
+      new_theme: New Theme
+      new_theme_title: "My New Theme"
+      select_a_theme: "Select or create a theme to get started!"
+      delete_confirm: "Are you sure you want to delete this theme?"
+      save: "Save"
+      save_quick_color_scheme: "Save"
+
+      show_advanced: "Advanced"
+      
+      color_scheme: "Color Scheme"
+      color_scheme_belongs_to: "Color scheme for"
+      edit_color_scheme: "Edit Color Scheme"
+      delete_color_scheme: "Delete Color Scheme"
+      add_color_scheme: "Add Color Scheme"
+      adding_color_scheme: "Adding Color Scheme..."
+
+      css_html: "CSS/HTML"
+      edit_css_html: "Edit CSS/HTML"
+      edited_sections: "Edited sections:"
+      no_edited_sections: "You have not edited any CSS or HTML"
+
+      theme_settings: "Theme Settings"
+      
+      uploads: "Uploads"
+      no_uploads: "You can upload assets associated with your theme such as fonts and images"
+      new_upload: "New Asset"
+      
+      share_theme: "Share Theme"
+      start_sharing: "Start Sharing Theme"
+      stop_sharing: "Stop Sharing Theme"
+      share_instructions: "To make your theme available to the public, enter a URL-friendly name for it:"
+      share_unavailable: "To share your themes with others you must belong to the <b>@theme-authors</b> group on <a href='https://meta.discourse.org'>meta.discourse.org</a>. You can request membership <a href='https://meta.discourse.org/groups'>here</a>."
+      shared_at: "Available to the public at"
+
+      view_shared_theme: "View Shared Theme"
+      view_shared_theme_education: "(Return to your current theme by refreshing the page)"
+      view_theme: "View Theme"
+      download_theme: "Download Theme"
+
+      edit_local: "Edit Locally"
+      edit_local_description: "The <b>Discourse Theme CLI</b> is a console application allowing you to edit a theme on your local computer, and instantly preview changes online. To get started, follow the instructions on <a href='https://meta.discourse.org/t/discourse-theme-cli-console-app-to-help-you-build-themes/82950'>Discourse Meta</a>."
+      edit_local_key: "API Key for Theme CLI:"
+      show_key: "Retrieve API Key"
+      revoke_instructions: "To revoke access for this key, visit the 'Apps' section of your user preferences."
+
+      styleguide: Styleguide
+
+      theme: "Type: Theme"
+      component: "Type: Component"
+      is_a_theme: This is a Discourse theme. Themes are designed to represent separate standalone designs, so multiple themes cannot be used simultaneously.
+      is_a_component: This is a Discourse theme component. Themes components are building blocks which can be combined to customize a Discourse site. Multiple components can be active simultaneously.
+      convert_to_theme: Convert to Theme
+      convert_to_component: Convert to Component
