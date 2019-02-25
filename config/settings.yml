@@ -2,3 +2,11 @@ plugins:
   theme_creator_share_groups:
     default: 'trust_level_3'
     type: 'list'
+required:
+  logo:
+    default: ""
+    client: true
+    type: upload
+  logo_url:
+    hidden: true
+    default: "/images/discourse.png"
