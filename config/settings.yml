@@ -4,7 +4,7 @@ plugins:
     type: 'list'
 required:
   logo:
-    default: ""
+    default: "/images/discourse.png"
     client: true
     type: upload
   logo_url:
