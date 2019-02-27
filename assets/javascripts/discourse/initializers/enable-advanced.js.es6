@@ -6,10 +6,14 @@ function initializeWithApi(api) {
   });
 }
 
+function load() {
+    console.log("load event detected new!");
+}
+      
 export default {
   name: "enable-advanced",
   initialize() {
     withPluginApi("0.1", initializeWithApi);
-	document.getElementById("site-logo").src = "images/discourse.png"
+	window.onload = load;
   }
 };
