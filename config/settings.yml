@@ -9,4 +9,4 @@ required:
     type: upload
   logo_url:
     hidden: true
-    default: "/images/discourse.png"
+    default: "/plugins/discourse-theme-sample/images/discourse.png"
